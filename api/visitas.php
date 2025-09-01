@@ -1,7 +1,7 @@
 <?php
-include("config/db.php");
-include("layout/sidebar.php");
-include("layout/topbar.php");
+include("../config/db.php");
+include("../layout/sidebar.php");
+include("../layout/topbar.php");
 ?>
 <!DOCTYPE html>
 <html lang="es">

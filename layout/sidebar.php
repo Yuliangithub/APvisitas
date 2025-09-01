@@ -2,10 +2,10 @@
 
 <div class="sidebar">
     <a href="http://192.168.1.216/APvisitas/api/dashboard.php">Dashboard</a>
-    <a href="http://192.168.1.216/APvisitas/visitas.php">Visitas</a>
-    <a href="#">Hallazgos</a>
-    <a href="#">Evidencias</a>
-    <a href="#">Reportes</a>
+    <a href="http://192.168.1.216/APvisitas/api/visitas.php">Visitas</a>
+    <a href="http://192.168.1.216/APvisitas/api/aspectos.php">Aspectos</a>
+    <a href="http://192.168.1.216/APvisitas/api/evidencias.php">Evidencias</a>
+    <a href="http://192.168.1.216/APvisitas/api/reportes.php">Reportes</a>
 </div>
 
 

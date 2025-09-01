@@ -1,8 +1,8 @@
 <?php
 // Conexión a la base de datos
-include("../config/db.php");
-include("../layout/sidebar.php");
-include("../layout/topbar.php");
+include("config/db.php");
+include("layout/sidebar.php");
+include("layout/topbar.php");
 
 // Totales de visitas
 $visitas = [
@@ -87,7 +87,7 @@ while($row = $resProximos->fetch_assoc()){
 <div class="main-content">
 <div class="container py-4" style="margin-top:70px;">
     <div class="quick-btns mb-3">
-        <a href="#" class="btn btn-primary btn-sm">Registrar nueva visita</a>
+        <a href="visitas_nueva.php" class="btn btn-primary btn-sm">Registrar nueva visita</a>
         <a href="#" class="btn btn-secondary btn-sm">Ver historial de auditorías</a>
         <a href="#" class="btn btn-success btn-sm">Subir evidencias</a>
     </div>
