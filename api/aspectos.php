@@ -14,12 +14,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Aspectos Verificados</title>
+    <title>Aspectos Generales</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container py-4">
-    <h3>Aspectos Verificados</h3>
+    <h3>Aspectos Generales</h3>
     <form method="post" class="mb-4">
         <div class="row g-2">
             <div class="col-md-4">
